@@ -19,12 +19,12 @@ A simple calculator created with HTML, CSS, and JavaScript. It features basic ar
 <h2>💻 How to Run</h2>
 <ol>
   <li>Clone or download this repository:</li>
-  <pre><code>git clone https://github.com/yourusername/calculator.git</code></pre>
+  <pre><code>git clone https://github.com/samarnayyar/calculator.git</code></pre>
   
   <li>Navigate to the project folder:</li>
   <pre><code>cd calculator</code></pre>
   
-  <li>Open <code>index.html</code> in your browser.</li>
+  <li>Open <code>index.html</code> in your browser and run on live server</li>
 </ol>
 
 <h2>To improve in the future</h2>
