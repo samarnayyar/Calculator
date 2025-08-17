@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="calculator">
+        <div class="row">
+            <input type="text" id="display" placeholder="Enter the numbers">     
+        </div>
+
+        <div class="row">
+            <button class='button special' data-value="c" type="button">AC</button>
+            <button class='button operators' data-value="/" type="button">/</button>
+            <button class='button operators' data-value="%" type="button">%</button>
+            <button class='button special delete' data-value="del" type="button">DEL</button> 
+
+        </div>
+
+        <div class="row">
+            <button class='button numbers' data-value="7" type="button">7</button>
+            <button class='button numbers' data-value="8" type="button">8</button>
+            <button class='button numbers' data-value="9" type="button">9</button>
+            <button class='button operators' data-value="*" type="button">*</button>
+        </div>
+
+        <div class="row">
+            <button class='button numbers' data-value="4" type="button">4</button>
+            <button class='button numbers' data-value="5" type="button">5</button>
+            <button class='button numbers' data-value="6" type="button">6</button>
+            <button class='button operators' data-value="-" type="button">-</button>
+        </div>
+
+        <div class="row">
+            <button class='button numbers' data-value="1" type="button">1</button>
+            <button class='button numbers' data-value="2" type="button">2</button>
+            <button class='button numbers' data-value="3" type="button">3</button>
+            <button class='button operators' data-value="+" type="button">+</button>
+        </div>
+        <div class="row">
+            <button class='button numbers' data-value="00" type="button">00</button>
+            <button class='button numbers' data-value="0" type="button">0</button>
+            <button class='button special' data-value="." type="button">.</button>
+            <button class='button special' data-value="=" type="button">=</button>
+        </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
